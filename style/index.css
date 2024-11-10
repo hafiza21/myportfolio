@@ -1,0 +1,70 @@
+:root{  
+    --primary-green:#2d64b6;
+    --secondary-gray:#ccd6f6;
+    /*font size*/
+    --text-sm:0.875rem;
+    --text-base:1rem;
+    --text-lg:1.125rem;
+    --text-xl:1.25rem;
+    --text-2xl:1.5rem;
+    --text-3xl:1.875rem;
+    --text-4xl:2.25rem;
+    --text-5xl:3rem;
+    --text-6xl:3.75rem;
+    --text-7xl:4.5rem;
+ }
+/* genral style*/
+html{
+    font-family: system-ui;
+}
+body{
+    background-color:#1a2840;
+    color:#8892b0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hightlight {
+color: var(--primary-green);
+}
+main{
+    max-width: 24rem;
+    margin: 0 auto;
+}
+/*media*/
+@media(min-width: 640px){
+  main{
+    max-width: 32rem;
+  }
+}
+@media(min-width: 768px){
+    main{
+        max-width: 42rem;
+      }
+}
+@media(min-width: 1024px){
+   
+    main{
+        max-width: 48rem;
+      }
+}
+@media(min-width: 1280px){
+    main{
+        max-width: 64rem;
+      }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
